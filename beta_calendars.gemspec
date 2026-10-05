@@ -8,13 +8,26 @@ Gem::Specification.new do |spec|
   spec.authors = ["Mateo Pedersen"]
   spec.email = []
 
-  spec.summary = "Deterministic Ruby calendar grids for monthly, yearly and printable calendar applications."
+  spec.summary = "Ruby calendar grids for monthly, yearly and printable planning applications."
   spec.description = <<~DESCRIPTION
-    Beta Calendars Ruby generates Gregorian month and year calendar structures,
-    including configurable Sunday or Monday week starts, adjacent-month cells,
-    ISO week metadata, fixed six-week print grids, blank planning grids, JSON
-    serialization, and a small command-line interface. All calculations run
-    locally using Ruby's standard Date library.
+    == Beta Calendars Ruby
+
+    Generate Gregorian month and year calendar grids locally for Ruby
+    applications. Configure Sunday or Monday week starts, adjacent-month dates,
+    ISO week metadata, fixed six-week print layouts, blank planning grids, and
+    JSON output. The calculations use Ruby's standard Date library and need no
+    runtime gem dependencies.
+
+    == Printable calendar examples
+
+    * {Monthly calendar templates}[https://www.betacalendars.com/monthly-calendar]
+      show printable month-grid layouts.
+    * {Blank calendar templates}[https://www.betacalendars.com/blank-calendar]
+      show empty grids for flexible planning.
+    * {Monthly planner templates}[https://www.betacalendars.com/monthly-planner]
+      show a related planning format.
+
+    See the {Ruby library guide and API examples}[https://github.com/mateopedersen/beta-calendars-ruby#readme].
   DESCRIPTION
   spec.homepage = "https://www.betacalendars.com/"
   spec.license = "MIT"
